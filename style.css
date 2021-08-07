@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+.form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row
+{
+    height: 100vh;
+    width:100vw;
+    background: rgb(148,0,211);
+}
+.writesection
+{
+    display: flex;
+    justify-content: center;
+}
+.writing
+{
+    
+    margin-left: 10vw;
+}
+.heading
+{
+    margin-top: 20vh;
+    color: white;
+    font-size: 3.0rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 5vh
+}
+.data1
+{
+    color: white;
+    width: 50%;
+}
+.formsection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcard
+{
+    height: 80%;
+    width: 70%;
+    background:white;
+    border-radius:5px;
+}
+.fh1
+{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.formd{
+margin-top: 30px;
+display: flex;
+justify-content: center;
+}
+.form-group
+{
+    width: 25vw;
+}
+.form-group label{
+    font-size: 0.7rem;
+    color: grey;
+}
+::placeholder{
+    color: black;
+}
+.form-check-input:checked {
+    background: rgb(64,210,68);
+border-color: white;
+}
+.form-check-input:checked[type=radio]
+{
+    background-image: none;
+}
+.otpbtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    .btn{
+        margin-top: 40px;
+        width: 90%;
+    background:rgb(148,0,211);
+    color: white !important;
+    border-radius: 2px;
+}
+@media screen and (max-width: 600px) {
+ .row{
+     height:auto;
+ }  
+ .heading{
+    margin-top: 10vh;
+    color: white;
+    font-size: 1.80rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 3vh    
+ }
+ .data1{
+     width: 80%;
+     margin-bottom: 9vh;
+ } 
+ .formcard{
+     margin-top: -05vh;
+     width: 90%;
+     height: 103%;
+ }
+ .formd{
+     margin-top: -5px;
+    
+     margin-left: -20px;
+     width: 90%;
+ }
+ .form-control
+ {
+     width: auto;
+ 
+  }
+  .otpbtn{
+      width: 150%;
+  }
+  .btn{
+      margin-bottom:40px;
+  }
+}
